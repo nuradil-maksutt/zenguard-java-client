@@ -1,0 +1,38 @@
+This Repository contain ZenGuard client implementation on java
+
+##Usage Example
+
+```java
+import ai.zenguard.Detector;
+import ai.zenguard.ZenGuardClient;
+
+class App {
+
+    public static void main(String[] args) {
+        // Initialize ZenGuardClient with your API key
+        ZenGuardClient zenguardClient = new ZenGuardClient(
+            "<your-api-key>"
+        );
+
+        // Text to analyze
+        String prompt =
+            "My name is Orasio Gonzales, my email is test@test.com, and my SSN is 111-11-1111.";
+
+        // Specify the types of detectors to use
+        Detector[] detectors = {
+            Detector.PII,
+            Detector.KEYWORDS,
+            Detector.ALLOWED_TOPICS,
+            Detector.BANNED_TOPICS,
+            Detector.PROMPT_INJECTION,
+            Detector.SECRETS,
+        };
+
+        // Detect sensitive information
+        String detectResponse = zenguardClient.detect(prompt, detectors);
+
+        // Output the detection result
+        System.out.println(detectResponse);
+    }
+}
+```
