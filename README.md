@@ -1,5 +1,3 @@
-<a href="https://docs.zenguard.ai/" target="_blank"><img src="https://img.shields.io/badge/docs-view-green" alt="Documentation"></a>
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ![image](https://github.com/user-attachments/assets/1dbaf662-a9bb-4583-81f4-b357bd945225)
@@ -38,7 +36,7 @@ cd zenguard-java-client
 mv ai <path-to-your-project>
 ```
 
-##Usage Example
+## Usage Example
 
 Create App.java file in your project root:
 
