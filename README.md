@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-This Repository contain ZenGuard client implementation on java
+![image](https://github.com/user-attachments/assets/1dbaf662-a9bb-4583-81f4-b357bd945225)
 
 # ZenGuard AI
 
